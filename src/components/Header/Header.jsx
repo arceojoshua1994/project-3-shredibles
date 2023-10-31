@@ -1,9 +1,11 @@
 import React from 'react';
 import '../../styles/Header.css';
+import '../../assets/images/Shredibles-3 2.jpg'
 
 function Header() {
     return (
         <div className="header">
+            <img src="(logo)" alt="Shredibles Logo" className="header-logo" />
             <h1>Shredibles</h1>
             <ul>
                 <li><a href="/">Home</a></li>
