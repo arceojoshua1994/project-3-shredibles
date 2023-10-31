@@ -1,0 +1,30 @@
+/* Basic styling using the provided color palette */
+
+.header {
+    background-color: #08A045;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.header a {
+    color: #F5B700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header a:hover {
+    color: #6BBF59;
+}
