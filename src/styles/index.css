@@ -1,10 +1,25 @@
+:root {
+  --main-color: #08A045; 
+  --secondary-color: #F5B700;
+  --accent-color1: #6BBF59;
+  --accent-color2: #0B6E4F;
+  --accent-color3: #073B3A;
+}
+
+/* Key: Color Palette 
+Main Color: 08A045 (Pigment Green)
+Secondary Color: F5B700 (Selective Yellow)
+Accent Colors: 
+6BBF59 (Mantis)
+0B6E4F (Dartmouth Green)
+073B3A (Midnight Green) */
+
 body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--accent-color3);
+  color: var(--main-color);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
 code {
